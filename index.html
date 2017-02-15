@@ -65,10 +65,15 @@
               <div class="col-sm-12">
                 <div class="ct-pageHeader ct-pageHeader--type3">
                   <h1 data-fx="fadeInDown" style="color:black;" data-time="400" class="ct-pageHeader-title animated">Prototype, <br> Anything<span class="ct-u-color--white">BetaBlocks</span></h1>
-                  <div class="btn-group ct-u-margin-top-30">
-                      <input type="button" value="BUY NOW FOR $75" name="submit" title="PayPal - The safer, easier way to pay online!" data-fx="fadeInUp" data-time="700" class="btn btn-dark animated paypal_btn checkoutButton"><img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                      <a href="#features" data-fx="fadeInUp" data-time="1000" data-scroll="#features" class="btn btn-transparent btn--withIcon btn--white animated">See why to Buy<i class="fa fa-caret-right"></i></a>
-                  </div>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="9B4ELG574K9A8">
+                        <div class="btn-group ct-u-margin-top-30">
+                            <input type="button" value="BUY NOW" name="submit" title="PayPal - The safer, easier way to pay online!" data-fx="fadeInUp" data-time="700" class="btn btn-dark animated paypal_btn checkoutButton"><img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            <a href="#features" data-fx="fadeInUp" data-time="1000" data-scroll="#features" class="btn btn-transparent btn--withIcon btn--white animated">See why to Buy<i class="fa fa-caret-right"></i></a>
+                        </div>
+                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
                 </div>
               </div>
             </div>
